@@ -19,7 +19,6 @@ enum Spoler {            //спойлер открыт/закрыт
     case Open, Close
 }
 
-
 protocol CarProtocol: AnyObject {
     
     var brand: String {get}
@@ -170,4 +169,3 @@ print(auto2)
 auto2.tent = .Close
 auto2.actionTent(tent: .Close)
 print(auto2)
-
