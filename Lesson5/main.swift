@@ -48,8 +48,6 @@ extension CarProtocol {                 //Расширяем протокол
             print("Свет отключен")
             self.light = .Off
             }
-        
-        
         }
     }
 }
