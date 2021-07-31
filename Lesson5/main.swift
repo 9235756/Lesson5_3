@@ -157,7 +157,6 @@ extension TrunkCar: CustomStringConvertible {
 
 var auto1 = SportCar (brand: "Toyota", year: 2000, color: "Белый", light: .On, spoler: .Open)
 auto1.spoler = .Close
-
 var auto2 = TrunkCar (brand: "Зил", year: 1993, color: "Синий", light: .Off, tent: .Close)
 auto2.light = .Off
 
