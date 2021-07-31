@@ -104,8 +104,6 @@ extension SportCar: CustomStringConvertible {
     }
 }
 
-
-
 class TrunkCar: CarProtocol {
     var brand: String
     var year: Int
